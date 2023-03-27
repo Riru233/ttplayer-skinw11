@@ -1,0 +1,67 @@
+<skin version="2" name="Media Player" author="Hizuna" url="http://ttplayer.com" email="1125149887@qq.com" transparent_color="#ff00ff">
+	<player_window image="player_skin.bmp">
+		<equalizer position="390, 48, 431, 81" image="equalizer.bmp" />
+		<open position="445, 48, 486, 81" image="open.bmp" />
+		<!--fluent选项卡-->
+		<playlist position="14, 45, 91, 80" image="playlist.bmp" />
+		<!--窗口按钮-->
+		<minimize position="363, 1, 408, 32" image="minimize.bmp" />
+		<minimode position="409, 1, 454, 32" image="minimode.bmp"/>
+        <exit position="456, 1, 501, 33" image="exit.bmp" />
+		<icon position="18, 16, 34, 32" />
+		<!--显示器-->
+		<visual position="1, 88, 501, 331" />
+		<!--播放器-->
+		<play position="240, 389, 276, 425" image="play.bmp" />
+		<pause position="240, 389, 276, 425" image="pause.bmp" />
+		<prev position="196, 389, 232, 425" image="prev.bmp" />
+		<next position="284, 389, 320, 425" image="next.bmp" />
+		<progress position="74, 340, 424, 362" bar_image="progress.bmp" thumb_image="progress_thumb.bmp" fill_image="progress_fill.bmp"/>
+		<volume position="416, 396, 484, 417" vertical="false" bar_image="volume.bmp" thumb_image="volume_thumb.bmp" fill_image="volume_fill.bmp" />
+		<lyric position="334, 389, 369, 425" image="lyric.bmp" />
+		<mute position="373, 389, 408, 425" image="mute.bmp" />
+		<!--播放信息-->
+		<info position="24, 380, 190, 406" bkgnd="#FFFFFF" weight="bolder" color="#000000" font="微软雅黑" font_size="26" align="left"/>
+		<status position="24, 406, 190, 426" bkgnd="#FFFFFF" color="#9C9C9C" font="微软雅黑" font_size="12" align="left"/>
+		<led position="445, 348, 480, 358" image="number.bmp" align="left"/>
+
+	</player_window>
+	<lyric_window position="0, 86, 497, 502" image="lyric_skin.bmp">
+		<lyric position="8, 0, 492, 244" />
+	</lyric_window>
+   <mini_window image="mini_skin.bmp">
+		<!--图标-->
+   		<icon position="14, 10, 30, 26" />
+		<!--按钮(5个，包含暂停和播放六个)-->
+		<play position="66, 61, 101, 97" image="play.bmp" />
+		<pause position="66, 61, 101, 97" image="pause.bmp" />
+		<prev position="22, 61, 57, 97" image="prev.bmp" />
+		<next position="110, 61, 145, 97" image="next.bmp" />
+        <exit position="121, 1, 166, 37" image="exit.bmp" />
+		<minimode position="127, 108, 162, 143" image="mini_minimode.bmp" />
+	</mini_window>
+	<equalizer_window position="0, 452, 532, 867" image="equalizer_skin.bmp" eq_interval="2">
+		<!--关闭窗口-->
+		<close position="270, 358, 507, 390" image="equal_exit.bmp" align="right" />
+		<!--均衡器开关-->
+		<enabled position="439, 33, 507, 56" image="eq_enabled.bmp" />
+		<!--预设按钮-->
+		<profile position="25, 74, 80, 106" image="eq_profile.bmp" />
+		<!--重置按钮-->
+		<reset position="25, 268, 80, 300" image="eq_reset.bmp" />
+		<!--平衡-->
+		<balance position="178, 78, 300, 103" thumb_image="eq_balance.bmp" bar_image="" />
+		<!--环绕声-->
+		<surround position="372, 78, 494, 103" thumb_image="eq_balance.bmp" bar_image="" />
+		<!--preamp配置-->
+		<!--preamp vertical="true" position="26, 74, 44, 156" thumb_image="eq_balance.bmp" bar_image="" /-->
+		<!--eq均衡器配置-->
+		<eqfactor position="83, 114, 123, 236" thumb_image="eq_thumb.bmp" bar_image="equbar.bmp" />
+	</equalizer_window>
+	<playlist_window position="503, 0, 1004, 450" resize_rect="100, 89, 250, 90" resize_tile="1" image="playlist_skin.bmp">
+		<close position="456, 1, 501, 33" image="exit0.bmp" align="right"/>
+		<toolbar position="9, 59, 232, 86" image="playlist_toolbar.bmp" align="top+left"/>
+		<scrollbar buttons_image="scrollbar_button.bmp" thumb_image="scrollbar_thumb.bmp" bar_image="scrollbar_bar.bmp" thumb_resize_center="8" thumb_resize_tile="1"/>
+		<playlist position="8, 101, 499, 448"/>
+	</playlist_window>
+</skin>
